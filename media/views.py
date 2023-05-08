@@ -5,4 +5,5 @@ def home(request):
     return render(request, 'media/home.html')
 
 
-# Create your views here.
+def profile(request):
+    return render(request, 'media/profile.html')
